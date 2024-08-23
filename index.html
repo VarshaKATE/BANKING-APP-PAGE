@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SBI</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--  header start -->
+    <header>
+      <div class="header-content">
+          <h1>SBI <span style="color: #F0A868;">BANK</span> <span class="material-symbols-outlined">
+            account_balance
+            </span></h1>
+      </div>
+      <nav>
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact</a></li>
+          </ul>
+      </nav>
+  </header>
+    <!-- main section -->
+    <main>
+      <section>
+        <div class="balance">
+          <h2>Current Balance: $<span id="balance">1000</span></h2>
+        </div>
+      </section>
+
+      <section>
+        <div class="Action">
+          <input type="number" id="amount" placeholder="Enter Amount" autofocus/>
+          <span class="material-symbols-outlined">currency_rupee_circle</span>
+          <button onclick="deposit()">Deposit</button>
+          <button onclick="withdraw()">Withdraw</button>
+        </div>
+      </section>
+    </main>
+     <!-- footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Banking App. All rights reserved.</p>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>

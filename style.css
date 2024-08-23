@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+header{
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-content h1{
+    margin: 0;
+    flex-grow: 1;
+}
+
+main{
+    background-color:#FEFFFE ;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover{
+    color: #a8dadc;
+}
+
+.material-symbols-outlined{
+vertical-align: middle;
+}
+
+.Action{
+    text-align: center;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 100px;
+    
+}
+
+.Action button{
+    padding: 10px;
+    max-width: 400px;
+    font-weight: 700;
+    border: none;
+    background-color:#E2FDFF ;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+.balance{
+    text-align: center;
+    margin-top: 5px;
+    border: 2px solid white;
+    background-color:#E5E5E5 ;
+    color: #066284;
+    
+}
+
+
+footer {
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #897C80;
+    padding: 20px;
+    text-align: center;
+    
+} 
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 700;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+} 
